@@ -1,0 +1,8 @@
+SoundFile 
+torchaudio 
+torch 
+pyyaml 
+click 
+matplotlib 
+librosa 
+pyworld

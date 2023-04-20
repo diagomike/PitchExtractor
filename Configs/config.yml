@@ -1,12 +1,12 @@
 log_dir: "Checkpoint"
 save_freq: 10
-device: "cuda"
+device: "cpu"
 epochs: 100
-batch_size: 64
+batch_size: 2
 pretrained_model: ""
 train_data: "Data/train_list.txt"
 val_data: "Data/val_list.txt"
-num_workers: 16
+num_workers: 4
 
   
 optimizer_params:
