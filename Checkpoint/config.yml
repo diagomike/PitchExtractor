@@ -1,0 +1,13 @@
+batch_size: 2
+device: cpu
+epochs: 100
+log_dir: Checkpoint
+loss_params:
+  lambda_f0: 0.1
+num_workers: 4
+optimizer_params:
+  lr: 0.0003
+pretrained_model: ''
+save_freq: 10
+train_data: Data/train_list.txt
+val_data: Data/val_list.txt
